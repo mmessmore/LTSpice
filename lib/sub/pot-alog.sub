@@ -6,6 +6,6 @@
 *
 .SUBCKT pot-alog 1 2 3
 .param w=limit(wiper,1m,.999)
-R0 1 3 {Rtot*log(1-w)}
-R1 3 2 {Rtot*log(w)}
+R0 1 3 {RAtot*log(1-w)}
+R1 3 2 {RAtot*log(w)}
 .ENDS
